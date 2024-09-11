@@ -1,0 +1,22 @@
+.gitignore merge=ours
+
+# Autodetect file teks
+* text=auto
+
+# Perlakukan file - file ini sebagai teks
+*.php  text
+*.css  text
+*.js   text
+*.txt  text
+*.md   text
+*.xml  text
+*.json text
+*.sql  text
+*.yml  text
+
+# Pastikan file - file ini tidak diutak-atik
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.rtf   binary
